@@ -1,0 +1,121 @@
+/* сбрасывает установленные стили*/
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.page1 {
+  margin-bottom: 261px;
+}
+
+.page2 {
+  margin: 0 72px 0 100px;
+}
+
+header,
+.menu,
+#wrapper-services,
+.foot {
+  display: flex; /*элементы списка идут в ряд*/
+}
+
+#wrapper-services {
+  margin-bottom: 56px;
+}
+
+nav {
+  color: #211f54;
+}
+
+.menu {
+  list-style: none; /*убираем маркеры списка*/
+}
+
+li a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+.menu li:not(:last-child) {
+  margin-right: 22px;
+}
+
+#logo {
+  margin-right: 0;
+}
+
+.blueButton {
+  /* Типографика */
+  color: #ffffff;
+  font-weight: bold;
+  /* Оформление */
+  border: none;
+  background-color: #0075ff;
+}
+li a:hover {
+  color: #0075ff; /*изменяет цвет пункт меню при наведении на */
+}
+
+li a:visited {
+  color: #4b2f89; /*изменяет цвет посещенных ссылок*/
+}
+
+.whiteButton {
+  color: #211f54;
+
+  background-color: #ffffff;
+  border-color: #eff0f6;
+  box-shadow: 0 0 10px 0;
+}
+
+.blueButton,
+.whiteButton {
+  padding: 26px 38px;
+
+  border-radius: 14px;
+}
+
+#callUs {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+.darkText {
+  color: #211f54;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 74px;
+}
+
+p,
+.lightText {
+  color: #6e7191;
+}
+
+.darkText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.foot {
+  margin: 55.44px 110px 35px 110px;
+}
+.foot img {
+  padding-right: 309px;
+  margin-right: 116px;
+}
